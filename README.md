@@ -56,7 +56,7 @@ afeaf/
 - [Message Broker](docs/broker.md) - Communication patterns
 - [LLM Integration](docs/llm.md) - Language model integration
 - [Tools](docs/tasks/README.md) - Available tools and capabilities
-  - [Memory Tools](docs/tasks/memory_tools.md) - Memory and persistence capabilities
+  - [Memory](docs/tools/memory.md) - Memory and persistence capabilities
 
 ## Contributing
 

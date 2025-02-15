@@ -120,7 +120,7 @@ Let's see how the components work together when Nova needs to handle incoming em
    - Nova receives the notification and springs into action
 
 2. Context Building:
-   Nova uses the Memory mechanism detailed in [Memory in AFEAF](../memory.md) to understand the situation:
+   Nova uses the Memory mechanism detailed in [Memory in AFEAF](tools/memory.md) to understand the situation:
    - Retrieves current events via the short term memory
    - Understands the relationship between the sender and the receiver and all other relevant people through the long term memory
    - Knows the project context also via the long term memory
@@ -154,6 +154,6 @@ When a user requests "Schedule a project review with the team and prepare a stat
 3. Smart Follow-up:
    Nova ensures everything is set:
    - Sends meeting confirmations via the Email tool
-   - Updates her active context as detailed in [Memory in AFEAF](../memory.md) with the new meeting context
+   - Updates her active context as detailed in [Memory in AFEAF](tools/memory.md) with the new meeting context
    - Keeps track of who has accepted the invitation
    - Ready to answer any questions about the meeting or report 
