@@ -42,12 +42,6 @@ afeaf/
 └── README.md
 ```
 
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies (requirements coming soon)
-3. Follow setup guides in the documentation
-
 ## Documentation
 
 - [Vision and Concepts](docs/vision.md) - Detailed overview of AFEAF's vision and implementation examples
@@ -57,35 +51,3 @@ afeaf/
 - [LLM Integration](docs/llm.md) - Language model integration
 - [Tools](docs/tasks/README.md) - Available tools and capabilities
   - [Memory](docs/tools/memory.md) - Memory and persistence capabilities
-
-## Contributing
-
-We welcome contributions! Please see our [contribution guidelines](docs/contributing.md) for details on how to get involved.
-
-## License
-
-[License information coming soon]
-
-## Installation
-
-1. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Create `.env` file:
-```
-OPENAI_API_KEY=your-openai-api-key-here
-REDIS_URL=redis://localhost:6379  # Optional: if using cache
-```
-
-4. Start the service:
-```bash
-uvicorn main:app --reload
-``` 
